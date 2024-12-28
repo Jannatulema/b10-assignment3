@@ -17,6 +17,9 @@
         .font-manrope {
           font-family: "Manrope", serif;
         }
+        .bg-img{
+            background-image: url(assets/bg.jpg);
+        }
     </style>
 
     <script>
@@ -27,9 +30,11 @@
                 clifford: '#da373d',
                 'rinterio-primary': '#ABEF5F',
               }
+             
             }
           }
         }
+       
       </script>
 
       <!-- font awesome -->
@@ -118,7 +123,43 @@
         </div> 
     </header>
 
-    <main></main>
+    <main>
+        <!-- Next project section -->
+         <section class="my-24 bg-img p-5 text-center">
+            <div class="text-center"><a class="btn bg-[#ABEF5F33] opacity20 rounded-3xl text-xl font-bold"><i class="fa-solid fa-arrow-right  rounded-full text-black p-3"></i> Let’s Connect</i></a></div>
+            <h2 class="text-[40px] font-bold text-center">Let’s Discuss Next Project</h2>
+            <p class="text-center text-base font-medium p-5">Let’s bring your dream home to life with our innovative designs and expert craftsmanship. Your next project <br> deserves the perfect blend of creativity and functionality—let’s build it together.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 text-center lg:mx-40">
+                <label class="input input-bordered flex items-center rounded-3xl">
+                  
+                    <input type="text" class="grow" placeholder="First Name*" />
+                  </label>
+                  <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+                 
+                    <input type="text" class="grow" placeholder="Last Name*" />
+                  </label>
+                  <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+                   
+                    <input type="number" class="grow" placeholder="Phone Number*" />
+                  </label>
+                  <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+                   
+                    <input type="email" class="grow" placeholder="Email*" />
+                  </label>
+                
+                  
+        </div>
+        <div class="lg:mx-40 py-5">
+            <label>
+                <input type="text" placeholder="Write your message here"
+class="input input-bordered input-lg w-full rounded-3xl gap-3 space-y-4" />
+              </label>
+        </div>   
+        <button><a class="btn bg-[#ABEF5F] rounded-3xl text-xl font-bold  lg:w-[970px]">Send Mail <i class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full text-white p-3"></i></a></button>
+       
+         </section>
+        
+    </main>
 
    <!-- footer section -->
         <footer class="footer footer-center bg-black text-white rounded p-10 font-manrope mx-auto">
